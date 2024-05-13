@@ -40,4 +40,5 @@ p {
     /*일부 스타일은 inherit(상속) 됩니다*/
     font-family: Meiryo, sans-serif;
     box-shadow: 5px 5px 5px 5px gray;
+             /* x축  y축 blur spread color */
 }
