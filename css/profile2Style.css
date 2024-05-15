@@ -19,7 +19,7 @@
 .main-title {
     color : white;
     font-size: 50px;
-    /*margin-top: 300px;*/
+    margin-top: 300px;
     /*margin collapse현상 : margin-top 를 적용시 main-background까지 margin이 적용됨
                         해결법 : 테두리를 안붙게하자 -> padding 주기*/
 }
@@ -40,3 +40,20 @@
 /* 그래서 두 박스의 테두리가 겹치지 않도록 해주시면 보다 더 정확한 마진 노가다를 하실 수 있습니다.*/
 /* 강의 예제에선 부모 박스에 padding을 1px 이렇게 조금 주는 것으로 쉽게 해결 가능합니다.*/
 /* 불만이 있다면 웹표준을 관리하는 www.w3.org 이라는 단체에 따지도록 합시다.*/
+
+.main-button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    /*position : 1. 좌표이동 가능 2. 공중에 뜸 */
+    /*relative : 내 원래 위치를 기준으로 이동하세요~
+       static : 좌표이동 하지 말아주세요
+       fixed : 현재 화면이 기준  => 위로 올라가기 버튼같은거에 사용
+       absolute : 내 부모 태그중에 position : relaitve를 가진 부모가 기준*/
+    top:100px;
+    left :100px;
+    bottom: 100px;
+}
