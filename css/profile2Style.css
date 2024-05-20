@@ -1,3 +1,43 @@
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*margin : 0; padding : 0; 은 브라우저마다 기본값이 다르기 때문에 초기화를 해줘야함 */
+}
+
+
+
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://www.w3schools.com/w3images/paris.jpg');
+    background-size: cover;
+    /*cover : 배경이 짤려도 상관없으니 빈공간없이 배경으로 꽉채워라
+      contain : 베경이 짤리면 안됨*/
+    background-repeat: no-repeat;
+    /*백그라운드가 반복되지 않음 */
+    background-position: center;
+    /*백그라운드의 위치를 가운데로 설정 */
+    background-attachment: fixed;
+    /*스크롤을 내려도 배경이 고정되어있음 */
+    filter: brightness(70%) saturate(200%);
+    /* 안에 글씨 있으면 글씨에도 필터 입혀짐*/
+    padding : 1px;
+}
+
+.main-title {
+    color : white;
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+
 .main-background {
     width: 100%;
     height: 500px;
@@ -56,4 +96,21 @@
     top:100px;
     left :100px;
     bottom: 100px;
+}
+
+
+.explain-box {
+    width:700px;
+    margin: auto;
+    padding: 20px;
+    text-align:center;
+    background-color: #eeeeee;
+    position: relative;
+    top:-40px;
+    z-index: 5;
+    /*z-index 高いほど前に出ます。*/
+    max-width: 600px;
+    /*최대 폭*/
+    box-sizing: border-box;
+    /*이러면 padding, border포함함*/
 }
