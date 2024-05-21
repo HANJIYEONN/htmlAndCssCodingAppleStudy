@@ -26,3 +26,17 @@
     background-color: #E7B5BF;
     clear: both;
 }
+
+.text-input {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid mediumpurple;
+    border-radius: 5px;
+}
+
+.input[type=text] {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid mediumpurple;
+    border-radius: 5px;
+}
