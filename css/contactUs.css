@@ -1,0 +1,59 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.popUp {
+    width: 500px;
+    height: 500px;
+    /*padding: 50px;*/
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    margin-top: 300px;
+    padding-top: 2%;
+    padding-left: 8%;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: center;
+    margin-bottom: 20px;
+}
+
+.email{
+    width: 100%;
+}
+
+.firstName {
+    width: 50%;
+    float : left;
+}
+
+.lastName {
+    width: 49%;
+    float : left;
+}
+
+.ip-radio {
+    float: right;
+    width: 50%;
+}
+
+.bt-sbm{
+    background-color: #FFC325;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+    height: 30px;
+    float: right;
+
+}
