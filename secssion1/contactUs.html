@@ -6,32 +6,30 @@
     <title>contact us</title>
 </head>
 <body>
-    <div class="popUp">
-        <h1 class="title">contact us</h1>
-        <div class="email">
+    <form class="popUp">
+        <h1 class="w-100">contact us</h1>
+        <div class="w-100">
             <p>Your Email</p>
-            <input type="email" placeholder="email@example.com">
+            <input class="input-email" type="email" placeholder="email@example.com">
         </div>
-        <div class="firstName">
+        <div class="w-50">
             <p>First name</p>
             <input type="text">
         </div>
-        <div class="lastName">
+        <div class="w-50">
             <p>Last name</p>
             <input type="text">
         </div>
-        <div>
+        <div style="clear:both"></div>
+        <div class="w-100">
             <p>Message</p>
-            <textarea rows="5" ></textarea>
+            <textarea class="msg-textarea" rows="5" ></textarea>
         </div>
-        <div >
-            <div>
-                <input type="radio" disabled class="ip-radio">Subscribe</input>
-            </div>
-            <div>
-                <button type="submit" class="bt-sbm">SEND</button>
-            </div>
+        <div>
+            <input id="sub" type="checkbox"  class="ip-radio" />
+            <label for="sub">Subscribe</label>
+            <button type="submit" class="bt-sbm">SEND</button>
         </div>
-    </div>
+    </form>
 </body>
 </html>
