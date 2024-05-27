@@ -1,13 +1,68 @@
-/*body{*/
-/*    font-family: Arial, sans-serif;*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    background-color: gray;*/
-/*}*/
 
 .main-background {
     width: 100%;
     height: 500px;
-    background-image : url("../src/shoes.jpg");
-    /*background-image: url('https://www.w3schools.com/w3images/paris.jpg');*/
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position : relative;
+}
+
+.main-title {
+    font-family: Meiryo, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+.main-content {
+    font-family: Meiryo, sans-serif;
+    text-align: center;
+     color: white;
+}
+
+.main-btn{
+    font-family: Meiryo, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: peru;
+    position : absolute;
+    left : 0;
+    right : 0;
+    margin-left : auto;
+    margin-right : auto;
+    width : 80px
+}
+
+.sec-div {
+    background-color: #FFC325;
+    position : absolute;
+    left : 0;
+    right : 0;
+    margin-left : auto;
+    margin-right : auto;
+    width : 80%;
+    margin-top: -50px;
+    padding: 20px;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.sec-title {
+    font-family: Meiryo, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+
+.sec-content{
+    font-family: Meiryo, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
 }
