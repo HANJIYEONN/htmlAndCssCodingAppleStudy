@@ -50,3 +50,25 @@ h2{
 .cart-background th:nth-child(3) {
     width: 700px;
 }
+
+
+.btn {
+    padding: 15px;
+    font-size:20px;
+    border:none;
+    border-radius: 10px;
+    background-color:coral;
+    color:white;
+    cursor:pointer
+}
+
+.btn:hover {
+    background-color: #ff7f50;
+}
+.btn:focus{
+    background-color: grey;
+}
+.btn:active {
+    background-color: #ff6347;
+}
+
