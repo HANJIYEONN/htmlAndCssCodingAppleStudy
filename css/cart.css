@@ -1,7 +1,52 @@
 td, th {
-    border: 1px solid black;
+    border: 0px solid black;
 }
+
+tr {
+    border: 1px solid #a5cbf0;
+}
+
 table {
+    font: 14px/20px 'Helvetica Neue', center, D2Coding, sans-serif;
     border-collapse: collapse;
-    /*width: 100%;*/
+    background-color: white;
+    width: 100%;
+    max-width: 700px;
+    margin:auto;
+}
+
+body {
+    background-color: #a5cbf0;
+}
+
+.cart-background {
+    width:100%;
+    padding:30px;
+    position : absolute;
+    left : 0;
+    right : 0;
+    margin-top : 300px;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+h2{
+    width:100%;
+    position : absolute;
+    margin-top : -50px;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+.cart-background td, .cart-background th {
+    padding: 15px;
+    border-bottom: 1px solid #c2d3de;
+}
+
+.cell-long {
+    width: 300px;
+}
+
+.cart-background th:nth-child(3) {
+    width: 700px;
 }
