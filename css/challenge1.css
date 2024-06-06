@@ -66,3 +66,37 @@
     text-align: center;
     margin-top: 5px;
 }
+
+.flex-item {
+    width : 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 5px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+    align-items: center;
+}
+
+.nar-bar {
+    width: 100%;
+    height: 50px;
+    background-color: #e17372;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: large;
+    font-family: Meiryo, sans-serif, bold;
+    align-items: center;
+
+}
+.nav-flex {
+    margin :10px
+}
